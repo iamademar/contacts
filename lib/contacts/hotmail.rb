@@ -1,3 +1,4 @@
+module Email
 class Contacts
   class Hotmail < Base
     URL                 = "https://login.live.com/login.srf?id=2"
@@ -122,4 +123,5 @@ class Contacts
     
     TYPES[:hotmail] = Hotmail
   end
+end
 end

@@ -1,3 +1,4 @@
+module Email
 class Contacts
   class Yahoo < Base
     URL                 = "http://mail.yahoo.com/"
@@ -102,4 +103,5 @@ class Contacts
   end
 
   TYPES[:yahoo] = Yahoo
+end
 end

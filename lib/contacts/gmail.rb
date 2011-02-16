@@ -1,5 +1,6 @@
 require 'gdata'
 
+module Email
 class Contacts
   class Gmail < Base
     
@@ -32,4 +33,5 @@ class Contacts
     
     TYPES[:gmail] = Gmail
   end
+end
 end

@@ -1,3 +1,4 @@
+module Email
 class Contacts
   require 'hpricot'
   require 'csv'
@@ -151,4 +152,5 @@ class Contacts
   end
  
   TYPES[:aol] = Aol
+end
 end

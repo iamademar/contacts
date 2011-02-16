@@ -1,5 +1,6 @@
 require 'rexml/document'
 
+module Email
 class Contacts
   class Plaxo < Base
     URL                 = "http://www.plaxo.com/"
@@ -128,3 +129,4 @@ Success
   
 </ns1:GetContactsResponse>
 =end
+end

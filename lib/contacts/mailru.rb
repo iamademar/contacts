@@ -1,5 +1,6 @@
 require 'csv'
 
+module Email
 class Contacts
   class Mailru < Base
     LOGIN_URL = "https://auth.mail.ru/cgi-bin/auth"
@@ -65,4 +66,5 @@ class Contacts
   end
 
   TYPES[:mailru] = Mailru
+end
 end

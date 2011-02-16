@@ -1,3 +1,4 @@
+module Email
 class Contacts
   def self.parse_json( string )
     if Object.const_defined?('ActiveSupport') and
@@ -9,4 +10,5 @@ class Contacts
       raise 'Contacts requires JSON or Rails (with ActiveSupport::JSON)'
     end
   end
+end
 end

@@ -7,6 +7,7 @@ require "stringio"
 require "thread"
 require "erb"
 
+module Email
 class Contacts
   TYPES = {}
   VERSION = "1.2.4"
@@ -219,4 +220,5 @@ class Contacts
       end
     end.uniq
   end
+end
 end
