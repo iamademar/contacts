@@ -1,5 +1,5 @@
 if !Object.const_defined?('ActiveSupport')
-  require 'json'
+  require 'json' if RUBY_VERSION < '1.9'
 end
 
 class Contacts

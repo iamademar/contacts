@@ -2,3 +2,8 @@
 pkg/*
 test/accounts.yml
 nbproject/
+*~         
+~*         
+#*         
+*#         
+.#*        
