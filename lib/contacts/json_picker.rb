@@ -1,4 +1,6 @@
 if !Object.const_defined?('ActiveSupport')
+  puts '--------------- please work ---------------------'
+  puts '--------------- this is a test ------------------'
   #require 'json' if RUBY_VERSION < '1.9.2'
 end
 
